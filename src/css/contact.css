@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    padding-top: 140px;
+    width: 100%;
+    background-color: #0F0F0F;
+}
+.contactForm {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputEmail {
+    width: 700px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 5px;
+    color: black;
+
+}
+.inputEmail::placeholder {
+    font-weight: 600;
+}
+.inputEmail:focus {
+    outline: none;
+}
+
+.inputMessage {
+    color: black;
+    font-family: 'Montserrat';
+    margin-top: 15px;
+    padding: 5px;
+    width: 700px;
+    height: 300px;
+}
+.inputMessage:focus {
+    outline: none;
+}
+
+.messageSubmit {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.submitMessage {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.contactSocials {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contactSocialsLinks{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.copyright {
+
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .inputEmail {
+        width: 90vw;
+    }
+    .inputMessage {
+        width: 90vw;
+    }
+    .contactSocialsLinks {
+        display: none;
+        margin-left: 0;
+    }
+    .socialsMobileContact {
+        margin-left: 0;
+        width: 50vw;
+    }
+}
+
+
