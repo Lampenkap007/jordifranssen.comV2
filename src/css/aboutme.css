@@ -1,71 +1,71 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .about_me {
-    height: 100vh;
-    width: 100%;
-    background-color: #0F0F0F;
-    padding-top: 140px;
+  height: 100vh;
+  width: 100%;
+  background-color: #0f0f0f;
+  padding-top: 140px;
 }
 .bioSkills {
-    padding-left: 10vw;
-    padding-right: 5vw;
-    padding-top: 75px;
-    display: flex;
-    justify-content: space-between;
-
+  padding-left: 10vw;
+  padding-right: 5vw;
+  padding-top: 75px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .bio {
-    width: 550px;
-    font-family: 'Montserrat';
-    font-size: 14px;
+  width: 550px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 30px;
 }
 .timeLine {
-    padding-left: 10vw;
-    padding-top: 75px;
+  padding-left: 10vw;
+  padding-top: 75px;
 }
 .skills {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 900px) {
-    .about_me{
-        height: auto;
-        padding-bottom: 50px;
-    }
+  .about_me {
+    height: auto;
+    padding-bottom: 50px;
+  }
 
-    .bioSkills {
-        padding-left: 15vw;
-        flex-direction: column;
-        padding-top: 25px;
-    }
-    .bio {
-        width: 75vw;
-        margin-bottom: 50px;
-    }
-    .skills {
-        width: 75vw;
-        height: auto;
-        display: block;
-    }
-    .skillsDesktop {
-        display: none;
-    }
-    .timeLine {
-        padding-left: 0;
-    }
-    .timeLineSVG {
-        overflow-x: auto;
-        overflow-y: hidden;
-        height: 100px;
-        width: auto;
-        padding-right: 10vw;
-        padding-left: 7.5vw;
-        padding-bottom: 10px;
-    }
-    .timeLineH3 {
-        padding-left: 15vw;
-    }
+  .bioSkills {
+    padding-left: 15vw;
+    flex-direction: column;
+    padding-top: 25px;
+  }
+  .bio {
+    width: 75vw;
+    margin-bottom: 50px;
+  }
+  .skills {
+    width: 75vw;
+    height: auto;
+    display: block;
+  }
+  .skillsDesktop {
+    display: none;
+  }
+  .timeLine {
+    padding-left: 0;
+  }
+  .timeLineSVG {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 100px;
+    width: auto;
+    padding-right: 10vw;
+    padding-left: 7.5vw;
+    padding-bottom: 10px;
+  }
+  .timeLineH3 {
+    padding-left: 15vw;
+  }
 }
