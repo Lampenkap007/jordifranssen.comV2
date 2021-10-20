@@ -14,13 +14,15 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2750);
+    }, 3750);
   }, []);
 
   return (
     <>
       {loading ? (
-        <Preloader />
+        <>
+          <Preloader />
+        </>
       ) : (
         <>
           <NavBar />

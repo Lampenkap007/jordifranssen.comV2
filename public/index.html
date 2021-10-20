@@ -10,12 +10,6 @@
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
     ></script>
-    <!-- <script defer src="js.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script> -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -26,42 +20,6 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <!-- <div class="preloader">
-      <div class="text" style="color: white">Jordi Franssen</div>
-      <div class="title" style="color: white">Welcome</div>
-      <div class="bar">
-        <div id="fill"></div>
-      </div>
-    </div> -->
     <div id="root"></div>
   </body>
-  <!-- <script>
-    var progress = 0;
-    document.onreadystatechange = function () {
-      if (document.readyState == "interactive") {
-        var allElement = $("*");
-        var length = allElement.length;
-        for (var i = 0; i < length; i++) {
-          set_element(allElement[i], length);
-        }
-      }
-    };
-
-    function set_element(element, totalElement) {
-      var percentage = 100 / totalElement;
-      if ($(element).length == 1) {
-        $("#fill").animate(
-          { width: progress + percentage + "%" },
-          5,
-          function () {
-            if (document.getElementById("fill").style.width == "100%") {
-              $(".preloader").fadeOut(500);
-              document.getElementById("root").style.display = "block";
-            }
-          }
-        );
-        progress = progress + percentage;
-      }
-    }
-  </script> -->
 </html>

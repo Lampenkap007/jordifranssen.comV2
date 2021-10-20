@@ -4,10 +4,11 @@ import { gsap, Power4 } from "gsap";
 export default function Preloader() {
   let textAnim = useRef(null);
   let titleAnim = useRef(null);
+  let loaderFadeOut = useRef(null);
   useEffect(() => {
     gsap.to(textAnim, {
       opacity: 1,
-      y: -40,
+      y: -80,
       duration: 1,
       ease: Power4.easeOut,
     });
@@ -17,12 +18,24 @@ export default function Preloader() {
       y: -40,
       duration: 1,
       ease: Power4.easeOut,
-      delay: 0.2,
+      delay: 0.3,
+    });
+
+    gsap.to(loaderFadeOut, {
+      opacity: 0,
+      duration: 0.5,
+      ease: Power4.easeOut,
+      delay: 2.75,
     });
   }, []);
 
   return (
-    <div className="preloader">
+    <div
+      className="preloader"
+      ref={(el) => {
+        loaderFadeOut = el;
+      }}
+    >
       <div
         className="text"
         ref={(el) => {
