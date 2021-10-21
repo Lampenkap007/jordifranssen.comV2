@@ -1,14 +1,28 @@
-import React from "react";
-import { useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
+import { gsap, Power4 } from "gsap";
 
 export default function NavBar() {
   const [showMenu, setShowMenu] = useState(true);
 
   let menu;
+  let navbarCloseAnim = useRef(null);
+
+  useEffect(() => {
+    gsap.from(navbarCloseAnim, {
+      x: -100,
+      duration: 1,
+      ease: Power4.easeOut,
+    });
+  }, []);
 
   if (showMenu) {
     menu = (
-      <div className="navbarClose">
+      <div
+        className="navbarClose"
+        ref={(el) => {
+          navbarCloseAnim = el;
+        }}
+      >
         <svg
           className="hamburger"
           xmlns="http://www.w3.org/2000/svg"

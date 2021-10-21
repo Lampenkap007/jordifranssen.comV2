@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import NavBar from "./NavBar";
+import { Scrollbars } from "react-custom-scrollbars-2";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -24,13 +25,13 @@ function App() {
           <Preloader />
         </>
       ) : (
-        <>
+        <Scrollbars style={{ width: "100%", height: "100vh" }}>
           <NavBar />
           <Home />
           <AboutMe />
           <Projects />
           <Contact />
-        </>
+        </Scrollbars>
       )}
     </>
   );

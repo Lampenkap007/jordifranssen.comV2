@@ -56,7 +56,7 @@ export default function HomeSocials() {
       opacity: 0,
       y: 20,
       duration: 1,
-      delay: 2.2,
+      delay: 2.4,
       ease: Power4.easeOut,
     });
   }, []);
@@ -153,6 +153,7 @@ export default function HomeSocials() {
 
       <p
         className="download link"
+        onClick={() => window.open("files/my-cv.pdf")}
         ref={(el) => {
           downloadAnim = el;
         }}
