@@ -55,7 +55,7 @@ export default function HomeRecentProjects() {
           recentProjectsTitleAnim = el;
         }}
       >
-        RECENT PROJECTS
+        RECENTE PROJECTEN
       </p>
       <div
         className="RecentProjectsDevider"

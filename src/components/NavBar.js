@@ -92,9 +92,9 @@ export default function NavBar() {
         </svg>
         <p className="navLink">HOME</p>
         <div className="dottedLine" />
-        <p className="navLink">ABOUT ME</p>
+        <p className="navLink">OVER MIJ</p>
         <div className="dottedLine" />
-        <p className="navLink">PROJECT GALLERY</p>
+        <p className="navLink">PROJECT GALLERIJ</p>
         <div className="dottedLine" />
         <p className="navLink">CONTACT</p>
       </div>

@@ -50,7 +50,7 @@ export default function Preloader() {
           titleAnim = el;
         }}
       >
-        Welcome
+        Welkom
       </div>
 
       <PropagateLoader size={5} color={"#FFFFFF"} />

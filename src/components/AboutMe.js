@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="about_me">
-      <h2>ABOUT ME</h2>
+      <h2>OVER MIJ</h2>
       <div className="bioSkills">
         <div>
           <h3>BIO</h3>
@@ -21,7 +21,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div>
-          <h3>SKILLS</h3>
+          <h3>VAARDIGHEDEN</h3>
           <svg
             className="skillsDesktop"
             xmlns="http://www.w3.org/2000/svg"
@@ -366,7 +366,7 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="timeLine">
-        <h3 className="timeLineH3">TIMELINE</h3>
+        <h3 className="timeLineH3">TIJDLIJN</h3>
         <div className="timeLineSVG">
           <svg
             className="timeLineSVG"
