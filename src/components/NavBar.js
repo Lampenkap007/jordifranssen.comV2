@@ -90,13 +90,21 @@ export default function NavBar() {
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg>
-        <p className="navLink">HOME</p>
+        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+          HOME
+        </p>
         <div className="dottedLine" />
-        <p className="navLink">OVER MIJ</p>
+        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+          OVER MIJ
+        </p>
         <div className="dottedLine" />
-        <p className="navLink">PROJECT GALLERIJ</p>
+        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+          PROJECT GALLERIJ
+        </p>
         <div className="dottedLine" />
-        <p className="navLink">CONTACT</p>
+        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+          CONTACT
+        </p>
       </div>
     );
   }

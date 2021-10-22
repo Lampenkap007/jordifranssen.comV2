@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="about_me">
+    <section className="about_me">
       <h2>OVER MIJ</h2>
       <div className="bioSkills">
         <div>
@@ -586,6 +586,6 @@ export default function AboutMe() {
           </svg>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
