@@ -153,7 +153,7 @@ export default function HomeSocials() {
 
       <p
         className="download link"
-        onClick={() => window.open("../doc/my-cv.pdf")}
+        onClick={() => window.open("my-cv.pdf")}
         ref={(el) => {
           downloadAnim = el;
         }}
