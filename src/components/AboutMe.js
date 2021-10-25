@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <section className="about_me">
+    <section className="about_me" id="about_me">
       <h2>OVER MIJ</h2>
       <div className="bioSkills">
         <div>

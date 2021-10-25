@@ -8,7 +8,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h2>CONTACT</h2>
       <form
         className="contactForm"

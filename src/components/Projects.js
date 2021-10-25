@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h2>PROJECT GALLERIJ</h2>
 
       <div className="grid image-grid">

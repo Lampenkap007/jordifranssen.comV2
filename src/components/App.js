@@ -25,7 +25,7 @@ function App() {
           <Preloader />
         </>
       ) : (
-        <Scrollbars style={{ width: "100%", height: "100vh" }}>
+        <Scrollbars autoHide style={{ width: "100%", height: "100vh" }}>
           <NavBar />
           <Home />
           <AboutMe />

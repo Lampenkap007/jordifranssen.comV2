@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
 import { gsap, Power4 } from "gsap";
-
 export default function NavBar() {
   const [showMenu, setShowMenu] = useState(true);
 
@@ -90,21 +89,37 @@ export default function NavBar() {
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg>
-        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+        <a
+          href="#home"
+          className="navLink"
+          onClick={() => setShowMenu(!showMenu)}
+        >
           HOME
-        </p>
+        </a>
         <div className="dottedLine" />
-        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+        <a
+          href="#about_me"
+          className="navLink"
+          onClick={() => setShowMenu(!showMenu)}
+        >
           OVER MIJ
-        </p>
+        </a>
         <div className="dottedLine" />
-        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+        <a
+          href="#projects"
+          className="navLink"
+          onClick={() => setShowMenu(!showMenu)}
+        >
           PROJECT GALLERIJ
-        </p>
+        </a>
         <div className="dottedLine" />
-        <p className="navLink" onClick={() => setShowMenu(!showMenu)}>
+        <a
+          href="#contact"
+          className="navLink"
+          onClick={() => setShowMenu(!showMenu)}
+        >
           CONTACT
-        </p>
+        </a>
       </div>
     );
   }
