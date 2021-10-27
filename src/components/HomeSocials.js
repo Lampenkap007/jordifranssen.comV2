@@ -120,7 +120,7 @@ export default function HomeSocials() {
       <div className="socialsMobile">
         <FontAwesomeIcon
           className="link"
-          onClick={() => window.open("mailto:jordifranssen.com")}
+          onClick={() => window.open("mailto:info@jordifranssen.com")}
           icon={faAt}
         />
         <FontAwesomeIcon
