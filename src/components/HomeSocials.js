@@ -66,7 +66,7 @@ export default function HomeSocials() {
       <div className="socials">
         <p
           className="link"
-          onClick={() => window.open("mailto:jordifranssenmij@gmail.com")}
+          onClick={() => window.open("mailto:info@jordifranssen.com")}
           ref={(el) => {
             social1Anim = el;
           }}
@@ -120,7 +120,7 @@ export default function HomeSocials() {
       <div className="socialsMobile">
         <FontAwesomeIcon
           className="link"
-          onClick={() => window.open("mailto:jordifranssenmij@gmail.com")}
+          onClick={() => window.open("mailto:jordifranssen.com")}
           icon={faAt}
         />
         <FontAwesomeIcon
